@@ -20,6 +20,17 @@
   transition:
     background,
     transform ease-in 0.3s;
+  max-width: max-content;
+}
+
+.botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+  transition: background 0.3s;
+}
+
+.botao.secundario:hover {
+  background: var(--cor-9);
 }
 
 .botao:hover {
