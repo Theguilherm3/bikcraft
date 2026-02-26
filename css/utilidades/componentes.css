@@ -23,6 +23,8 @@
     background,
     transform ease-in 0.3s;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao.secundario {
